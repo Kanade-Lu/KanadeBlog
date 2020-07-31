@@ -1,8 +1,11 @@
 module.exports = {
   "title": "kanade_Blog",
-  "base":"/KanadeBlog/"
+  "base":"/KanadeBlog/",
   "description": "myBlog",
   "dest": "public",
+  "themeConfig": {
+    "sidebar": 'auto'//在所有页面中启用自动生成侧栏
+  },
   "head": [
     [
       "link",
