@@ -1,10 +1,10 @@
 
 set -e
-
+npm run build
 # 进入生成的文件夹
 cd ./public
 
-npm run build
+
 git add -A
 git commit -m 'updateBlog'
 
